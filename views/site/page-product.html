@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css bootstraps -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../assets/css/product.style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../../assets/css/base.css" />
+    <link rel="stylesheet" href="../../assets/css/app.css" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+
+    <!-- Slick click -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+      rel="stylesheet"
+    />
+    <!-- font chữ -->
+    <link
+      rel="stylesheet"
+      href="../../assets/fonts/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="container">
+      <div class="left">
+        <div class="menu-type">
+          <ul class="menu-type-ul">
+            <li class="menu-type-li">
+              <h3 class="separate">TẤT CẢ</h3>
+            </li>
+            <li class="menu-type-li">
+              <h3 class="separate">NAM</h3>
+            </li>
+            <li class="menu-type-li">
+              <h3>NỮ</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="left-divider"></div>
+
+        <div class="left-type-item">
+          <ul>
+            <li class="accordion-body top_accordion">Giày</li>
+            <li class="accordion-body">Nửa trên</li>
+            <li class="accordion-body">Phụ kiện</li>
+          </ul>
+        </div>
+
+        <div class="left-divider"></div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <label
+                class="accordion-button collapsed"
+                data-toggle="collapse"
+                data-target="#flush-collapseOne"
+                aria-controls="flush-collapseOne"
+                aria-expanded="false"
+              >
+                TRẠNG THÁI
+              </label>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse multi-collapse collapse show"
+            >
+              <ul>
+                <li class="accordion-body">Limited Edition</li>
+                <li class="accordion-body">Online Only</li>
+                <li class="accordion-body">Sale off</li>
+                <li class="accordion-body">Best Seller</li>
+                <li class="accordion-body">New Arrival</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne1">
+              <label
+                class="accordion-button collapsed"
+                data-toggle="collapse"
+                data-target="#flush-collapseOne1"
+                aria-controls="flush-collapseOne1"
+                aria-expanded="false"
+              >
+                DÒNG SẢN PHẨM
+              </label>
+            </h2>
+            <div
+              id="flush-collapseOne1"
+              class="accordion-collapse multi-collapse collapse show product_line"
+            >
+              <!-- Render product line -->
+            </div>
+          </div>
+        </div>
+
+        <li class="nav-divider"></li>
+      </div>
+
+      <div class="right">
+        <div class="banner-product">
+          <img
+            src="https://res.cloudinary.com/anummio/image/upload/v1639817149/desktop_productlist_sdmn99.jpg"
+          />
+        </div>
+
+        <div class="list-products">
+          <!-- List products -->
+        </div>
+      </div>
+    </div>
+    <div class="render_card">
+      <!-- Render card -->
+    </div>
+    <div class="list-products">
+      <!-- List products -->
+    </div>
+    <div class="footer"></div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="../../assets/js/layout/header.js"></script>
+  <script src="../../assets/js/layout/footer.js"></script>
+  <script src="../../assets/js/components/product.js"></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../../assets/js/components/card.js"></script>
+  <script src="../../assets/js/components/logina.js"></script>
+  <script src="../../assets/js/components/category.js"></script>
+
+  <script>
+    renderProduct();
+  </script>
+  <script>
+    line();
+  </script>
+</html>

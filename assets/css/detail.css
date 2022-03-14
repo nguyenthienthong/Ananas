@@ -1,0 +1,33 @@
+.left-detail {
+  width: 40%;
+}
+
+.left-detail img {
+  width: 100%;
+}
+
+.right-detail {
+  padding-left: 60px;
+  width: 57%;
+}
+
+.detail {
+  padding: 20px 0px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.msd {
+  justify-content: space-between;
+}
+
+.detail-price {
+  color: #f15e2c;
+}
+
+.divider {
+  margin: 15px 0px;
+  background-color: #fff;
+  background: url(../img/bg_divider.png) repeat-x 7px;
+  height: 2px;
+}

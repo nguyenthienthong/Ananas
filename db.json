@@ -1,0 +1,429 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Thiện Thông1",
+      "account": "user111",
+      "password": "1231",
+      "typeof": 0,
+      "address": "TP HCM",
+      "email": "thongntps18723@gmail.com",
+      "number_phone": "0798910292"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Thiện Thông",
+      "account": "user",
+      "password": "123",
+      "typeof": 0,
+      "address": "TP HCM",
+      "email": "thongntps18723@gmail.com",
+      "number_phone": "0798910292"
+    },
+    {
+      "name": "Liu Tấn Phát",
+      "address": "TP HCM1",
+      "account": "phat11",
+      "password": "123456",
+      "typeof": "1",
+      "email": "phatu@gmail.com",
+      "number_phone": "0919835523",
+      "id": 3
+    },
+    {
+      "name": "thong nguyena",
+      "address": "phuoc khanh",
+      "account": "admin111111",
+      "password": "123",
+      "email": "Mckanvn@gmail.com",
+      "number_phone": "0798910292",
+      "id": 4,
+      "typeof": "0"
+    },
+    {
+      "name": "thong nguyen",
+      "address": "phuoc khanh",
+      "account": "admin11111",
+      "password": "123",
+      "email": "Mckanvn@gmail.com",
+      "number_phone": "0798910292",
+      "id": 5,
+      "typeof": "0"
+    },
+    {
+      "name": "thong nguyen",
+      "address": "phuoc khanh",
+      "account": "thong11",
+      "password": "123",
+      "typeof": "0",
+      "email": "nguyenthienthong3009@gmail.com",
+      "number_phone": "0798910292",
+      "id": 6
+    },
+    {
+      "name": "thong nguyen",
+      "address": "phuoc khanh",
+      "account": "thong123",
+      "password": "123456",
+      "email": "nguyenthienthong3009@gmail.com",
+      "number_phone": "0798910292",
+      "typeof": 0,
+      "id": 7
+    },
+    {
+      "name": "thong nguyen",
+      "address": "phuoc khanh",
+      "account": "nguyenthienthong123",
+      "password": "123456",
+      "email": "Mckanvn@gmail.com",
+      "number_phone": "0798910292",
+      "typeof": 0,
+      "id": 8
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Basas"
+    },
+    {
+      "id": 2,
+      "name": "Vintas"
+    },
+    {
+      "name": "Urbas",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Pattas"
+    },
+    {
+      "id": 5,
+      "name": "Socks"
+    },
+    {
+      "id": 6,
+      "name": "Track 6"
+    },
+    {
+      "id": 7,
+      "name": "Basic Tee"
+    },
+    {
+      "id": 8,
+      "name": "Backpack | Ba lô"
+    },
+    {
+      "id": 9,
+      "name": "Basic Tee | Áo thun cơ bản"
+    },
+    {
+      "id": 10,
+      "name": "Creas"
+    }
+  ],
+  "products": [
+    {
+      "name": "BASAS BUMPER GUM EXT NE - HIGH TOP",
+      "color": "BLACK/GUM",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644643765/product-details/product1",
+      "best_seller": 0,
+      "price": "650.000",
+      "status": "New Arrival",
+      "content": "Bumper Gum EXT (Extension) NE là bản nâng cấp được xếp vào dòng sản phẩm Basas, nhưng lại gây ấn tượng với diện mạo phá đi sự an toàn thường thấy. Với cách sắp xếp logo hoán đổi đầy ý tứ và mảng miếng da lộn (Suede) xuất hiện hợp lí trên chất vải canvas NE bền bỉ dày dặn nhấn nhá thêm bằng những sắc Gum dẻo dai. Tất cả làm nên 01 bộ sản phẩm với thiết kế đầy thoải mái trong trải nghiệm, đủ thanh lịch trong dáng vẻ.",
+      "id_category": "1",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "URBAS RULER - LOW TOP",
+      "color": "ICELANDIC BLUE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644897296/product-details/product2",
+      "price": "590.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Vẻ ngoài với màu sắc tươi tắn, hiện đại. Urbas Ruler mang trên mình một chức năng khiến không ít người bất ngờ, sẽ rất hữu ích dành cho những ai có thói quen dùng thước kẻ nhưng hay quên, mặc dù độ chính xác chưa chắc cao."
+    },
+    {
+      "id": 3,
+      "name": "URBAS RULER - LOW TOP",
+      "color": "Silver Pink",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644905763/product-details/product3",
+      "price": "590.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Vẻ ngoài với màu sắc tươi tắn, hiện đại. Urbas Ruler mang trên mình một chức năng khiến không ít người bất ngờ, sẽ rất hữu ích dành cho những ai có thói quen dùng thước kẻ nhưng hay quên, mặc dù độ chính xác chưa chắc cao."
+    },
+    {
+      "id": 4,
+      "name": "URBAS RULER - LOW TOP",
+      "color": "Granite Green",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644906674/product-details/product4",
+      "price": "720.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Vẻ ngoài với màu sắc tươi tắn, hiện đại. Urbas Ruler mang trên mình một chức năng khiến không ít người bất ngờ, sẽ rất hữu ích dành cho những ai có thói quen dùng thước kẻ nhưng hay quên, mặc dù độ chính xác chưa chắc cao."
+    },
+    {
+      "id": 5,
+      "name": "Basas Bumper Gum EXT NE - Low Top",
+      "color": "Black/Gum",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644907013/product-details/product5",
+      "price": "580.000",
+      "best_seller": 1,
+      "id_category": 1,
+      "status": "New Arrival",
+      "content": "Bumper Gum EXT (Extension) NE là bản nâng cấp được xếp vào dòng sản phẩm Basas, nhưng lại gây ấn tượng với diện mạo phá đi sự an toàn thường thấy. Với cách sắp xếp logo hoán đổi đầy ý tứ và mảng miếng da lộn (Suede) xuất hiện hợp lí trên chất vải canvas NE bền bỉ dày dặn nhấn nhá thêm bằng những sắc Gum dẻo dai. Tất cả làm nên 01 bộ sản phẩm với thiết kế đầy thoải mái trong trải nghiệm, đủ thanh lịch trong dáng vẻ."
+    },
+    {
+      "id": 6,
+      "name": "VINTAS FLANNEL - LOW TOP",
+      "color": "CEMENT",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644907792/product-details/product6",
+      "price": "690.000",
+      "best_seller": 0,
+      "id_category": 2,
+      "status": "New Arrival",
+      "content": "Khoác lên thân giày một lớp áo mới theo đúng nghĩa đen với thiết kế đánh dấu sự xuất hiện lần đầu tiên của chất vải Flannel trên các dáng sản phẩm quen thuộc từ Ananas. Phát huy những ưu điểm thoải mái và bền bỉ từ chất vải Flannel “vạn người mê”, song hành cùng phối màu trầm ấm đặc trưng, Vintas Flannel Pack là lựa chọn thú vị dành cho những bạn trẻ ái mộ phong cách điềm đạm chững chạc nhưng vẫn đầy sức hút."
+    },
+    {
+      "id": 7,
+      "name": "BASAS BUMPER GUM EXT NE - LOW TOP",
+      "color": "OFFWHITE/GUM",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644908910/product-details/product7",
+      "price": "580.000",
+      "id_category": 1,
+      "best_seller": 0,
+      "status": "New Arrival",
+      "content": "Bumper Gum EXT (Extension) NE là bản nâng cấp được xếp vào dòng sản phẩm Basas, nhưng lại gây ấn tượng với diện mạo phá đi sự an toàn thường thấy. Với cách sắp xếp logo hoán đổi đầy ý tứ và mảng miếng da lộn (Suede) xuất hiện hợp lí trên chất vải canvas NE bền bỉ dày dặn nhấn nhá thêm bằng những sắc Gum dẻo dai. Tất cả làm nên 01 bộ sản phẩm với thiết kế đầy thoải mái trong trải nghiệm, đủ thanh lịch trong dáng vẻ."
+    },
+    {
+      "id": 8,
+      "name": "BASAS BUMPER GUM EXT NE - HIGH TOP",
+      "color": "OFFWHITE/GUM",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644909672/product-details/product8",
+      "price": "650.000",
+      "best_seller": 1,
+      "id_category": 1,
+      "status": "New Arrival",
+      "content": "Bumper Gum EXT (Extension) NE là bản nâng cấp được xếp vào dòng sản phẩm Basas, nhưng lại gây ấn tượng với diện mạo phá đi sự an toàn thường thấy. Với cách sắp xếp logo hoán đổi đầy ý tứ và mảng miếng da lộn (Suede) xuất hiện hợp lí trên chất vải canvas NE bền bỉ dày dặn nhấn nhá thêm bằng những sắc Gum dẻo dai. Tất cả làm nên 01 bộ sản phẩm với thiết kế đầy thoải mái trong trải nghiệm, đủ thanh lịch trong dáng vẻ."
+    },
+    {
+      "id": 9,
+      "name": "BASAS HOOK N'LOOP NE - LOW TOP",
+      "color": "WHITE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product9",
+      "price": "520.000",
+      "best_seller": 0,
+      "id_category": 1,
+      "status": "New Arrival",
+      "content": "Giữ nguyên nét cơ bản tiện dụng của thế hệ trước, phiên bản Basas Hook N'Loop NE (New Episode) ra mắt với chất liệu vải mới nâng tầm trải nghiệm, cùng với một số chăm chút khác trong phần chi tiết khó nhận ra, giúp bạn dễ dàng lên chân bằng quai dán hiện đại. Đây chắc chắn là một lựa chọn xu hướng với nhịp sống hiện đại và thoải mái cho những ngày vô lo, vô nghĩ.      "
+    },
+    {
+      "id": 10,
+      "name": "BASAS BUMPER GUM NE - HIGH TOP",
+      "color": "OFFWHITE/GUM",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product10",
+      "price": "580.000",
+      "best_seller": 0,
+      "id_category": 1,
+      "status": "New Arrival",
+      "content": "Balo cực kì cơ bản, phù hợp đeo xuôi sau lưng hoặc đeo ngược phía trước. Với chất liệu được xử lí chống bám nước ở cả 2 lớp vải, các chi tiết nhỏ được chăm chút kĩ càng và vừa vặn với chiếc laptop 15.6''. Đây chắc chắn là một must have cho những ai yêu thích sự đơn giản mà hiệu quả."
+    },
+    {
+      "id": 11,
+      "name": "TRACK 6 SUEDE MOONPHASE",
+      "color": "WINTERIZE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product11",
+      "price": "990.000",
+      "best_seller": 0,
+      "id_category": 6,
+      "status": "New Arrival",
+      "content": "Dựa trên cảm hứng từ việc tái hiện những sắc xám (Grey) khác nhau hoà cùng những trạng thái ánh sáng trên bề mặt mặt trăng, Ananas Track 6 Suede Moonphase Pack sử dụng chất liệu da lộn (suede) đặc trưng, được phủ toàn bộ thân giày với tông màu sáng tối sắp xếp hài hoà hợp lý. Đây chắc chắn là một sản phẩm must have với những ai yêu thích chất suede và những gam màu Grey trung tính. "
+    },
+    {
+      "id": 12,
+      "name": "VINTAS MISTER - HIGH TOP",
+      "color": "CHOCOLATE BROWN",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product12",
+      "price": "610.000",
+      "best_seller": 1,
+      "id_category": 2,
+      "status": "New Arrival",
+      "content": "Công thức pha trộn từ hai chất liệu vải và da lộn đặc trưng, điều thường thấy ở bộ Vintas Mister. Sự kết hợp mạnh mẽ tạo nên nét cổ điển, hoài niệm. Chắc chắn là sự lựa chọn hết bài cho những con người trầm tính và điềm đạm."
+    },
+    {
+      "id": 13,
+      "name": "BASIC BACKPACK - ANANAS TYPO LOGO",
+      "color": "BLACK",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product13",
+      "price": "480.000",
+      "best_seller": 1,
+      "id_category": 8,
+      "status": "New Arrival",
+      "content": "Balo cực kì cơ bản, phù hợp đeo xuôi sau lưng hoặc đeo ngược phía trước. Với chất liệu được xử lí chống bám nước ở cả 2 lớp vải, các chi tiết nhỏ được chăm chút kĩ càng và vừa vặn với chiếc laptop 15.6''. Đây chắc chắn là một must have cho những ai yêu thích sự đơn giản mà hiệu quả."
+    },
+    {
+      "id": 14,
+      "name": "URBAS BLOODY - LOW TOP",
+      "color": "HAUTE RED",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product14",
+      "price": "440.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Urbas Bloody - đôi giày có chất liệu Upper hoàn toàn bằng da lộn dành cho những tâm hồn mong muốn nổi bật một cách nổi loạn, sáng tạo một cách sáng chói."
+    },
+    {
+      "id": 15,
+      "name": "URBAS CORLURAY - HIGH TOP",
+      "color": "MOUSE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product15",
+      "price": "650.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Lấy cảm hứng từ kì nghỉ Xuân 2020 dài hạn đặc biệt vượt qua cả mùa Hạ để chạm đến mùa Thu, “Corluray Pack” ra đời với nét cách điệu mới mẻ, hiếm thấy ở dòng Urbas. Chất liệu Corduroy với tên gọi khác Elephant Cord (nhung gân sợi to) lần đầu tiên được sử dụng trên thân giày, gây ấn tượng cùng những phối màu như những tia nắng cuối Xuân ấm áp."
+    },
+    {
+      "id": 16,
+      "name": "VINTAS SAIGON 1980S - LOW TOP",
+      "color": "DARK DENIM",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product16",
+      "price": "480.000",
+      "best_seller": 0,
+      "id_category": 2,
+      "status": "New Arrival",
+      "content": "Lấy cảm hứng từ các màu sắc đặc trưng của đường phố Sài Gòn những năm 80, Vintas Saigon 1980s là BST mang đậm nét đẹp cổ kính, hoài niệm. Với những ai yêu mến nét xưa cũ, trầm mặc, Saigon 1980s hứa hẹn sẽ trở thành must-have item cho tủ giày của bạn."
+    },
+    {
+      "id": 17,
+      "name": "URBAS CORLURAY - LOW TOP",
+      "color": "MUDBRICK",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product17",
+      "price": "590.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Lấy cảm hứng từ kì nghỉ Xuân 2020 dài hạn đặc biệt vượt qua cả mùa Hạ để chạm đến mùa Thu, “Corluray Pack” ra đời với nét cách điệu mới mẻ, hiếm thấy ở dòng Urbas. Chất liệu Corduroy với tên gọi khác Elephant Cord (nhung gân sợi to) lần đầu tiên được sử dụng trên thân giày, gây ấn tượng cùng những phối màu như những tia nắng cuối Xuân ấm áp."
+    },
+    {
+      "id": 18,
+      "name": "URBAS CORLURAY - LOW TOP",
+      "color": "FADED PINK",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product18",
+      "price": "590.000",
+      "best_seller": 0,
+      "id_category": 3,
+      "status": "New Arrival",
+      "content": "Lấy cảm hứng từ kì nghỉ Xuân 2020 dài hạn đặc biệt vượt qua cả mùa Hạ để chạm đến mùa Thu, “Corluray Pack” ra đời với nét cách điệu mới mẻ, hiếm thấy ở dòng Urbas. Chất liệu Corduroy với tên gọi khác Elephant Cord (nhung gân sợi to) lần đầu tiên được sử dụng trên thân giày, gây ấn tượng cùng những phối màu như những tia nắng cuối Xuân ấm áp."
+    },
+    {
+      "id": 19,
+      "name": "ANANAS TYPO LOGO HOODIE",
+      "color": "WHITE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product19",
+      "price": "500.000",
+      "best_seller": 0,
+      "id_category": 9,
+      "status": "New Arrival",
+      "content": "Với chất liệu nỉ thể thao cao cấp được lựa chọn kĩ lưỡng để phù hợp với thời tiết lạnh nhẹ của những ngày cuối năm nhưng không tạo cảm giác bức bí, Ananas Typo Logo Hoodie sẽ mang đến một outfit năng động và cá tính dù không cần mix-match cầu kì. Đây là một chiếc áo không thể thiếu trong hoodie seasion năm nay."
+    },
+    {
+      "id": 20,
+      "name": "CREAS FLIP-FLAP - HIGH TOP",
+      "color": "MAGENTA-SNORKEL BLUE",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1644926011/product-details/product20",
+      "price": "690.000",
+      "best_seller": 0,
+      "id_category": 10,
+      "status": "New Arrival",
+      "content": "Ananas Creas Flip-Flap được sản xuất với số lượng giới hạn. Ngẫu hứng, đảo nghịch và truyền tải bí quyết của sự hạnh phúc. Xem kĩ hình để rõ hơn các chi tiết thiết kế đặc biệt trên sản phẩm"
+    },
+    {
+      "id": 21,
+      "name": "ANANAS X DORAEMON 50 YEARS PATTAS",
+      "color": "WHITE/SUNRISE 50TH",
+      "url_img": "https://res.cloudinary.com/anummio/image/upload/v1645196913/product-details/product21",
+      "price": "950.000",
+      "best_seller": 1,
+      "id_category": 4,
+      "status": "New Arrival",
+      "content": "Ananas x Doraemon 50 Years Pattas thể hiện chân thật nét vẽ nguyên bản của bộ truyện từ cái nhìn đầu tiên. Sử dụng chất liệu Action Leather (da) phủ khắp thân giày, pha trộn cùng các chi tiết đắt giá được sắp đặt hợp lí. Ra mắt với số lượng đặc biệt giới hạn, phiên bản này phát hành với mục đích kỉ niệm, tôn vinh giá trị mà bộ truyện Doraemon đã mang lại suốt 50 năm qua."
+    }
+  ],
+  "seller": [
+    {
+      "id": 1,
+      "item": "BUY 2 GET 10% OFF - ÁP DỤNG VỚI TẤT CẢ BASIC TEE"
+    },
+    {
+      "id": 2,
+      "item": "BUY MORE PAY LESS - ÁP DỤNG KHI MUA PHỤ KIỆN"
+    },
+    {
+      "id": 3,
+      "item": "HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH"
+    },
+    {
+      "id": 4,
+      "item": "FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !"
+    }
+  ],
+  "history_buy": [
+    {
+      "id": 1,
+      "id_product": [1, 2, 3],
+      "id_user": 1
+    },
+    {
+      "id": 2,
+      "id_product": [1, 2, 3],
+      "id_user": 1
+    },
+    {
+      "id": 3,
+      "id_product": [1, 2, 3],
+      "id_user": 1
+    },
+    {
+      "id": 4,
+      "id_product": [1, 2, 3],
+      "id_user": 2,
+      "price": 400000,
+      "quantity": 18
+    },
+    {
+      "id_product": ["2", "3"],
+      "price": "1180000",
+      "quantily": "2",
+      "id_user": null,
+      "id": 5
+    },
+    {
+      "id_product": ["2", "3"],
+      "price": "1180000",
+      "quantily": "2",
+      "id_user": "1",
+      "id": 6
+    },
+    {
+      "id_product": ["2"],
+      "price": "2360000",
+      "quantily": "4",
+      "id_user": null,
+      "id": 7
+    },
+    {
+      "id_product": ["2"],
+      "price": "1770000",
+      "quantily": "3",
+      "id_user": "4",
+      "id": 8
+    }
+  ]
+}

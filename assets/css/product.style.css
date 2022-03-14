@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* Left */
+.container .left {
+  width: 23%;
+}
+
+.left .nav-menu {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu-type {
+  margin: 39px 0px 15px 0px;
+}
+
+.menu-type-ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.menu-type-li {
+  padding: 0 16px;
+}
+.menu-type-li h3 {
+  color: #928f8f;
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.menu-type-li .separate::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  border-left: 2px solid #bab0b0;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.separate::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  border-left: 2px solid #bab0b0;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Left */
+.menu-type {
+  margin: 39px 0px 15px 0px;
+}
+.menu-type-ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+.menu-type-li {
+  padding: 0 16px;
+  font-size: 20px;
+}
+.ant-menu-sub.ant-menu-inline {
+  background: #fff;
+}
+.left-divider {
+  height: 2px;
+  border-top: #303030 2px solid;
+  margin: 2px 0px;
+  width: 100%;
+  margin: auto;
+}
+
+.product_line a {
+  color: #212529;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  box-shadow: none;
+  color: #f15e2c;
+}
+.buy a {
+  color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+  color: #f15e2c;
+  fill: #f15e2c;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f15e2c;
+  border: none;
+  padding: 23px 0 15px 0px;
+  margin: 0;
+  cursor: pointer;
+}
+button[type="button"] {
+  display: block;
+  background-color: #fff;
+  border: none !important;
+}
+.accordion-button::after {
+  margin-left: 10px;
+  color: #f15e2c;
+}
+
+.accordion-body {
+  cursor: pointer;
+  font-size: 17px;
+  padding: 6px 20px;
+  margin-bottom: 5px;
+}
+
+.accordion-body:hover {
+  background-color: #f1f1f1;
+}
+
+/* right */
+.right {
+  width: 75%;
+  text-align: center;
+}
+.container .right {
+  width: 75%;
+  text-align: center;
+}
+
+.banner-product {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.banner-product img {
+  width: 100%;
+}
+
+.ihover {
+  display: none;
+}
+
+.list-products {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.list-product-item {
+  padding-bottom: 20px;
+  width: 33.333%;
+  padding-right: 10px;
+}
+
+.list-product-item .cont-item {
+  padding-bottom: 10px;
+}
+
+.list-product-item .cont-item img {
+  width: 100%;
+}
+
+.list-product-item:hover .ihover {
+  display: block;
+}
+.list-product-item:hover .inormal {
+  display: none;
+}
+.list-product-item:hover .btn-1 {
+  opacity: 1 !important;
+  animation: fadeIn ease-in 0.3s;
+}
+
+.top_accordion {
+  margin-top: 10px;
+}
+
+.caption {
+  margin-top: -40px;
+}
+.caption .type {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ff5f17;
+  margin-bottom: 5px;
+}
+.caption .divider {
+  background: url(https://res.cloudinary.com/anummio/image/upload/v1640093551/bg_divider_grke44.png)
+    repeat-x 7px;
+  height: 20px;
+  margin: 4px 0px;
+}
+.caption .color {
+  font-weight: 400;
+  font-size: 16px;
+}
+.caption .name,
+.price {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.button {
+  top: -65px;
+  position: relative;
+  z-index: 85;
+}
+.button .btn-1 {
+  border-radius: 0px;
+  background-color: #f15e2c;
+  border: #f15e2c 1px solid;
+  color: #fff;
+  font-size: 23px;
+  width: 180px;
+  height: 55px;
+  opacity: 0;
+}
+.button .button-icon {
+  font-size: 35px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #f15e2c;
+}
+.ant-menu-submenu-title {
+  padding-left: 0px !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+    opacity: 0;
+  }
+  to {
+    transform: scale(var(--growth-to));
+    opacity: 1;
+  }
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../../assets/img/12.svg);
+  fill: #f15e2c;
+  transform: rotate(-180deg);
+}

@@ -1,0 +1,114 @@
+.main-cart-left .title-1-1 {
+  color: #000;
+  background-color: #f1f1f1;
+  font-size: 23px;
+  margin: 0px 0px 20px 0px;
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+}
+
+.main-cart-left .form-control {
+  border-radius: 0px;
+  font-size: 16px;
+  width: 100%;
+  color: #000;
+}
+.ck1 {
+  position: relative;
+  font-size: 16px;
+  padding-left: 40px;
+  color: #000;
+}
+.ck3 input[type="radio"],
+.ck2 input[type="radio"],
+.ck1 input[type="radio"] {
+  visibility: hidden;
+}
+.ck2 label,
+.ck1 label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ck2 input[type="checkbox"],
+.ck1 input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ck2 input[type="radio"]:checked + label:after,
+.ck1 input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+.ck2 label:after,
+.ck1 label:after {
+  border: 2px solid #000;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 5px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.main-cart-left .title-right {
+  text-align: right;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+}
+
+.code {
+  justify-content: space-between;
+}
+.ck2 input[type="checkbox"]:checked + label:after,
+.ck1 input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.main-cart-right .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: none;
+  clear: both;
+  overflow: hidden;
+  font-size: 14px;
+}
+.main-cart-right .list-group-item.text-1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.main-cart-right .list-group-item .title-6,
+.main-cart-right .list-group-item .title-6-2 {
+  color: #808080;
+  width: 60%;
+}
+
+.main-cart-right .list-group-item .title-22,
+.main-cart-right .list-group-item .title-3-1,
+.main-cart-right .list-group-item .title-4-1,
+.main-cart-right .list-group-item .title-5-1,
+.main-cart-right .list-group-item .title-5-2,
+.main-cart-right .list-group-item .title-6-1 {
+  float: right;
+}
+.main-cart-right .list-group-item .title-6-3 {
+  text-align: left;
+  margin-left: 200px;
+  color: #808080;
+}

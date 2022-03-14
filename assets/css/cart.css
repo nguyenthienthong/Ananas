@@ -1,0 +1,246 @@
+.btn-clearAll a {
+  color: #fff;
+}
+.list-group-item .to-checkout a {
+  color: #fff;
+}
+.btn-clearAll a:hover {
+  color: #fff;
+}
+.main-cart {
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.title-1 {
+  color: #000;
+  background-color: #f1f1f1;
+  font-size: 22px;
+  margin: 20px 0px 20px 0px;
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+}
+
+.main-cart-left .title-3 {
+  margin: 35px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.title-3 .btn-delall,
+.btn-cont {
+  border-radius: 0px;
+  height: 40px;
+  width: 240px;
+  border: none;
+  background-color: #303030;
+  color: #fff;
+  font-size: 18px;
+}
+.fun {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-cont:hover {
+  color: #fff;
+}
+
+.media {
+  display: flex;
+}
+
+.media-left {
+  padding-right: 20px;
+}
+
+.media-object {
+  width: 180px;
+  height: 180px;
+  background-color: #cccccc;
+}
+
+.media-heading {
+  color: #000;
+  font-size: 21px;
+  margin-bottom: 0px;
+  min-height: 50px;
+}
+
+.price {
+  color: #808080;
+}
+.price .saleoff {
+  font-size: 16px;
+}
+
+.btn-size-cart {
+  padding: 10px 5% 10px 10px;
+  font-size: 15px;
+  width: 70%;
+}
+.media-count {
+  display: flex;
+  flex-direction: column;
+}
+.btn-delete {
+  overflow: hidden;
+  border-radius: 0px;
+  height: 40px;
+  width: 125px;
+  border: #303030 1px solid;
+  background-color: #303030;
+}
+
+.main-cart-left .price {
+  color: #f15e2c;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  min-height: 50px;
+  height: 20%;
+}
+.remove-product-in-cart {
+  height: 27%;
+}
+.main-cart-left .status {
+  color: #f15e2c;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: right;
+  height: 45%;
+}
+.main-cart-left .item-divider-1 {
+  border-bottom: #000 2px solid;
+  height: 1px;
+  margin: 40px 0px;
+}
+
+.main-cart-left .item-divider {
+  background-color: #fff;
+  background: url(../../assets/img/bg_divider.png) repeat-x 7px;
+  height: 1px;
+  margin: 20px 0px;
+}
+
+.main-cart-left {
+  padding-right: 40px;
+}
+
+.main-cart-right .list-group {
+  background-color: #f1f1f1;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.main-cart-right .list-group-item.title {
+  color: #000;
+  font-size: 23px;
+}
+
+.main-cart-right .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: none;
+  clear: both;
+  overflow: hidden;
+}
+.list-group-item:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.main-cart-right .list-group-item.divider {
+  border-bottom: #000 2px solid;
+  margin: 0px 20px;
+  padding: 0px;
+  height: 0;
+}
+
+.main-cart-right .list-group-item.title-1 {
+  color: #000;
+  font-size: 18px;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 0px;
+}
+
+.main-cart-right .form-control {
+  display: block;
+  width: 90%;
+  height: 40px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  color: #000;
+  font-size: 16px;
+}
+
+.main-cart-right .list-group-item .btn-apply {
+  border-radius: 0px;
+  background-color: #f15e2c;
+  color: #fff;
+  font-size: 12px;
+  height: 40px;
+}
+
+.main-cart-right .input-group-btn {
+  width: 26%;
+}
+
+.input-groups {
+  display: flex;
+}
+
+.main-cart-right .list-group-item.divider-1 {
+  background-color: #fff;
+  background: url(../../assets/img/bg_divider.png) repeat-x 7px;
+  height: 2px;
+  margin: 5px 20px;
+}
+
+.main-cart-right .list-group-item.text-1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.title-3,
+.title-3-1,
+.title-4,
+.title-4-1 {
+  color: #808080;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title-3-1,
+.title-4-1,
+.title-5-1 {
+  float: right;
+}
+
+.main-cart-right .list-group-item .title-5 {
+  color: #000;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.main-cart-right .list-group-item .title-5-1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.main-cart-right .list-group-item .btn-cart {
+  border-radius: 0px;
+  background-color: #f15e2c;
+  color: #fff;
+  font-size: 23px;
+  height: 80px;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 600;
+}

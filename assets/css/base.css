@@ -1,0 +1,73 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --primary-color: #ff5f17;
+  --border-color: #dbdbdb;
+
+  --header-height: 120px;
+  --nav-height: 22px;
+  --header-with-search: calc(var(--header-height) - var(--nav-height));
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+ul {
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.separate::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  border-left: 2px solid #bab0b0;
+  right: -3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-divider {
+  background: url(../../assets/img/bg_divider.png) repeat-x 7px;
+  height: 2px;
+  margin: 4px 0px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from));
+    opacity: 0;
+  }
+  to {
+    transform: scale(var(--growth-to));
+    opacity: 1;
+  }
+}

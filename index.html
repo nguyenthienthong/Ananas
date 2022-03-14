@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+      rel="stylesheet"
+    />
+    <!-- font chữ -->
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-menu">
+        <ul class="header-menu_ul">
+          <a href="">
+            <li class="header-menu_ul-li">
+              <img
+                class="header-menu_ul-img"
+                src="https://res.cloudinary.com/anummio/image/upload/v1644510320/icons/icon_tra_cuu_don_hang_pcvgxs.svg"
+                alt=""
+              />
+              Tra đơn hàng
+            </li>
+          </a>
+          <a href="">
+            <li class="header-menu_ul-li">
+              <img
+                class="header-menu_ul-img"
+                src="https://res.cloudinary.com/anummio/image/upload/v1644510317/icons/icon_tim_cua_hang_yuw9qe.svg"
+                alt=""
+              />
+              Tìm cửa hàng
+            </li>
+          </a>
+          <a href="">
+            <li class="header-menu_ul-li">
+              <img
+                class="header-menu_ul-img"
+                src="https://res.cloudinary.com/anummio/image/upload/v1644510311/icons/icon_heart_header_s2nsvq.svg"
+                alt=""
+              />
+              Yêu thích
+            </li>
+          </a>
+          <a id="login" href="./views/site/login.html">
+            <li class="header-menu_ul-li">
+              <img
+                class="header-menu_ul-img"
+                src="https://res.cloudinary.com/anummio/image/upload/v1644510294/icons/icon_dang_nhap_zgr0no.svg"
+                alt=""
+              />
+              Đăng nhập
+            </li>
+          </a>
+          <a href="./views/site/page-cart.html">
+            <li class="header-menu_ul-li">
+              <img
+                class="header-menu_ul-img"
+                src="https://res.cloudinary.com/anummio/image/upload/v1644510303/icons/icon_gio_hang_b7yzaf.svg"
+                alt=""
+              />
+              Giỏ hàng
+              <span class="header-count"></span>
+            </li>
+          </a>
+
+          <ul class="header__user"></ul>
+        </ul>
+      </div>
+      <div class="header-navbar">
+        <div class="header-nav_logo">
+          <img
+            class="header-nav_logo-img"
+            src="https://res.cloudinary.com/anummio/image/upload/v1638102281/Logo_Ananas_Header_raaiyd.svg"
+          />
+        </div>
+
+        <div class="header-nav_menu">
+          <ul class="menu-ul">
+            <li class="menu-ul_li separate">
+              <a href="./views/site/page-product.html">
+                SẢN PHẨM
+                <span class=""></span>
+              </a>
+              <div></div>
+            </li>
+
+            <li class="menu-ul_li separate">
+              <a href="">
+                NAM
+                <span class=""></span>
+              </a>
+              <div></div>
+            </li>
+
+            <li class="menu-ul_li separate">
+              <a href="">
+                NỮ
+                <span class=""></span>
+              </a>
+              <div></div>
+            </li>
+
+            <li class="menu-ul_li separate">
+              <a href="">
+                SALE OFF
+                <span class=""></span>
+              </a>
+              <div></div>
+            </li>
+
+            <li class="menu-ul_li">
+              <a href="">
+                <img
+                  src="https://res.cloudinary.com/anummio/image/upload/v1644510284/icons/DiscoverYOU_kqgnqi.svg"
+                  alt=""
+                />
+              </a>
+              <div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-group">
+          <img class="icon-search" src="" />
+          <input
+            type="text"
+            name="key"
+            class="form-control"
+            value=""
+            placeholder="Tìm kiếm"
+          />
+        </div>
+      </div>
+
+      <div class="slick-slider sale-top">
+        <!-- Render sale-top -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="banner">
+        <div class="banner-item">
+          <img src="./assets/img/Flannel_1920x1050_desktop.jpeg" alt="" />
+        </div>
+        <div class="banner-item">
+          <img src="./assets/img/Hi-im-Mule_1920x1050-Desktop.jpg" alt="" />
+        </div>
+        <div class="banner-item">
+          <img src="./assets/img/Flannel_1920x1050_desktop.jpeg" alt="" />
+        </div>
+        <div class="banner-item">
+          <img src="./assets/img/Flannel_1920x1050_desktop.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="home-collection">
+        <div class="home-collection-row left">
+          <img
+            class="col-img"
+            src="https://res.cloudinary.com/anummio/image/upload/v1638970343/banner-phu%CC%A3_2m-600x320_fvtyrg.jpg"
+          />
+          <div class="content-collection">
+            <h3 class="title">ALL BLACK IN BLACK</h3>
+            <h3 class="description">
+              Mặc dù được ứng dụng rất nhiều, nhưng sắc đen lúc nào cũng toát
+              lên một vẻ huyền bí không nhàm chán
+            </h3>
+          </div>
+        </div>
+
+        <div class="home-collection-row right">
+          <img
+            class="col-img"
+            src="https://res.cloudinary.com/anummio/image/upload/v1638970366/Banner_Sale-off-1_kknzgc.jpg"
+          />
+          <div class="content-collection">
+            <h3 class="title">OUTLET SALE</h3>
+            <h3 class="description">
+              Danh mục những sản phẩm bán tại "giá tốt hơn" chỉ được bán kênh
+              online - Online Only, chúng đã từng làm mưa làm gió một thời gian
+              và hiện đang rơi vào tình trạng bể size, bể số.
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-buy">
+        <div class="home-buy_title">
+          <h3>DANH MỤC MUA HÀNG</h3>
+        </div>
+
+        <div class="home-buy_row">
+          <div class="row-item">
+            <div class="row-item-bg">
+              <div class="black-bg"></div>
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639140500/catalogy-1_xnvc0q.jpg"
+              />
+            </div>
+
+            <div class="item-group">
+              <h3>GIÀY NAM</h3>
+              <h4>New Arrivals</h4>
+              <h4>Best Seller</h4>
+              <h4>Sale-off</h4>
+            </div>
+          </div>
+
+          <div class="row-item">
+            <div class="row-item-bg">
+              <div class="black-bg"></div>
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639143743/catalogy-2_yjknmm.jpg"
+              />
+            </div>
+
+            <div class="item-group">
+              <h3>GIÀY NAM</h3>
+              <h4>New Arrivals</h4>
+              <h4>Best Seller</h4>
+              <h4>Sale-off</h4>
+            </div>
+          </div>
+
+          <div class="row-item">
+            <div class="row-item-bg">
+              <div class="black-bg"></div>
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639143783/catalogy-3_yotgxz.jpg"
+              />
+            </div>
+
+            <div class="item-group">
+              <h3>DÒNG SẢN PHẨM</h3>
+              <h4>Basas</h4>
+              <h4>Vintas</h4>
+              <h4>Urbas</h4>
+              <h4>Pattas</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-best-seller">
+        <h3 class="sl-seller-title">BEST SELLER</h3>
+
+        <div class="best-seller">
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404621/products/stu_basas_A61023_1-500x500_yf0wi0.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">Baseball Cap - Be Positive</h3>
+              <h3 class="color">Pink</h3>
+              <h3 class="price">275.000 VND</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404552/products/pro_ABC100_1-500x500_1_zt2dml.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404550/products/pro_basictee_ABT00003_1-500x500_dse6vy.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404611/products/stu_basas_A61003_1-500x500_gz5ria.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404615/products/stu_basas_A61022_1-500x500_cxc4v5.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404612/products/stu_basas_A61013_1-500x500_uqym07.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404549/products/stu_basas_A61024_1-500x500_fftcac.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+          <div class="best-seller-item">
+            <img
+              src="https://res.cloudinary.com/anummio/image/upload/v1639404551/products/pro_vintas_A61043_1-500x500_ym8dh2.jpg"
+              alt=""
+            />
+
+            <div class="slider-title">
+              <h3 class="name">{item.name}</h3>
+              <h3 class="color">{item.color}</h3>
+              <h3 class="price">{item.price}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-another">
+        <img src="./assets/img/Banner_Clothing_1_krguqw.jpg" alt="" />
+      </div>
+
+      <div class="home-posts">
+        <div class="home-posts-news instagram">
+          <h2>INSTAGRAM</h2>
+        </div>
+
+        <div class="home-posts-news posts">
+          <h2>TIN TỨC & BÀI VIẾT</h2>
+          <div class="new-list">
+            <div class="post-item">
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639478708/posts/blog_thefirstinternationalcollaboration_mobile-300x160_oifpzx.jpg"
+              />
+              <h3 class="post-title">VÌ SAO LUCKY LUKE?</h3>
+              <h3 class="post-des">
+                Quay về thời điểm trước khi ngỏ lời mời, đội ngũ Ananas tìm thấy
+                khá nhiều lí do làm chất xúc tác cho sự “liều lĩnh” này. Đó là
+                sự cảm tính có cơ sở để nảy ra ý tưởng ban đầu. Để rồi sau đó,
+                những lí do “hết sức hợp lí” lại liên tục xuất hiện khi các
+                thành viên dấn thân vào tìm hiểu sâu hơn về Lucky Luke...
+              </h3>
+              <h3 class="post-detail">Đọc thêm</h3>
+            </div>
+
+            <div class="post-item">
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639478707/posts/kvngang_mobile_web-300x160_ilstmz.jpg"
+              />
+              <h3 class="post-title">VÌ SAO LUCKY LUKE?</h3>
+              <h3 class="post-des">
+                Quay về thời điểm trước khi ngỏ lời mời, đội ngũ Ananas tìm thấy
+                khá nhiều lí do làm chất xúc tác cho sự “liều lĩnh” này. Đó là
+                sự cảm tính có cơ sở để nảy ra ý tưởng ban đầu. Để rồi sau đó,
+                những lí do “hết sức hợp lí” lại liên tục xuất hiện khi các
+                thành viên dấn thân vào tìm hiểu sâu hơn về Lucky Luke...
+              </h3>
+              <h3 class="post-detail">Đọc thêm</h3>
+            </div>
+
+            <div class="post-item">
+              <img
+                src="https://res.cloudinary.com/anummio/image/upload/v1639478707/posts/kvngang_mobile_web-300x160_ilstmz.jpg"
+              />
+              <h3 class="post-title">VÌ SAO LUCKY LUKE?</h3>
+              <h3 class="post-des">
+                Quay về thời điểm trước khi ngỏ lời mời, đội ngũ Ananas tìm thấy
+                khá nhiều lí do làm chất xúc tác cho sự “liều lĩnh” này. Đó là
+                sự cảm tính có cơ sở để nảy ra ý tưởng ban đầu. Để rồi sau đó,
+                những lí do “hết sức hợp lí” lại liên tục xuất hiện khi các
+                thành viên dấn thân vào tìm hiểu sâu hơn về Lucky Luke...
+              </h3>
+              <h3 class="post-detail">Đọc thêm</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="load-more">MUỐN XEM NỮA</div>
+    </div>
+    <div class="render_card">
+      <!-- Render card -->
+    </div>
+    <div class="footer"></div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      let sale_top = document.querySelector(".sale-top");
+      APIseller = "http://localhost:3000/seller";
+      fetch(APIseller)
+        .then((res) => {
+          return res.json();
+        })
+        .then((db) => {
+          db.forEach((item) => {
+            $(".sale-top").append(`
+      <div class="slider_item">
+      <p>${item.item}</p>
+    </div>
+   
+  
+    `);
+          });
+        })
+        .then(() => {
+          $(".sale-top").slick({
+            prevArrow:
+              '<button class="slide-arrow prev-arrow"><i class="fas fa-chevron-left"></i></button>',
+            nextArrow:
+              '<button class="slide-arrow next-arrow"><i class="fas fa-chevron-right"></i></button>',
+          });
+        });
+
+      $(document).ready(function () {
+        $(".banner").slick({
+          arrows: false,
+          dots: false,
+        });
+      });
+
+      $(document).ready(function () {
+        $(".best-seller").slick({
+          arrows: true,
+          dots: false,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          prevArrow:
+            '<button class="slide-arrow_seller prev-arrow_seller"><i class="fas fa-chevron-left"></i></button>',
+          nextArrow:
+            '<button class="slide-arrow_seller next-arrow_seller"><i class="fas fa-chevron-right"></i></button>',
+        });
+      });
+    </script>
+    <script src="./assets/js/layout/footer.js"></script>
+    <script src="./assets/js/components/logina.js"></script>
+    -
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/components/card.js"></script>
+  </body>
+</html>

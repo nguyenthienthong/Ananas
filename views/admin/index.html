@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ananas Admin</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../assets/css/admin.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header"></div>
+
+    <div class="container-fluid color">
+      <div class="left-sidebar">
+        <div class="sidebar-nav">
+          <ul class="sidebarnav">
+            <li class="sidebarnav__admin">
+              <div class="user-profile">
+                <div class="user-pic">
+                  <img src="../../assets/img/1.jpg" alt="" />
+                </div>
+
+                <div class="user-content hide-menu m-l-10 dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    <h5 class="m-b-0 user-name font-medium">
+                      Steave Jobs <i class="fa fa-angle-down"></i>
+                    </h5>
+                    <span class="op-5 hide-menu user-email"
+                      >varun@gmail.com</span
+                    >
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="">Home</a></li>
+                    <li><a class="dropdown-item" href="">My profile</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="">Get out</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="sidebar-item active">
+              <a href="#" class="sidebar-item__users">
+                <i class="fas fa-user menu-icon active"></i>
+                <span class="hide-menu menu-hd active">Users</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-item__users">
+                <i class="fas fa-shopping-basket menu-icon"></i>
+                <span class="hide-menu menu-hd">Category</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-item__users">
+                <i class="fas fa-shopping-bag menu-icon"></i>
+                <span class="hide-menu menu-hd">Products</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-wrapper">
+        <div class="page-breadcrumb">
+          <div class="row align-items-center">
+            <div class="col-5">
+              <h4 class="page-title active">Users</h4>
+              <h4 class="page-title">Category</h4>
+              <h4 class="page-title">Products</h4>
+              <div class="d-flex align-items-center">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="#">Home</a>
+                  </li>
+                  <li class="breadcrumb-item home active">
+                    <a href="#">Users</a>
+                  </li>
+                  <li class="breadcrumb-item home">
+                    <a href="#">Category</a>
+                  </li>
+                  <li class="breadcrumb-item home">
+                    <a href="#">Products</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="col-7">
+              <div class="text-end upgrade-btn btn_main active">
+                <a
+                  href="./addUser.html"
+                  class="btn btn-custom text-white"
+                  target="_blank"
+                  >Create User
+                </a>
+              </div>
+              <div class="text-end upgrade-btn btn_main">
+                <a
+                  href="./addCategory.html"
+                  class="btn btn-custom text-white"
+                  target="_blank"
+                  >Create Category
+                </a>
+              </div>
+              <div class="text-end upgrade-btn btn_main">
+                <a
+                  href="./addProduct.html"
+                  class="btn btn-custom text-white"
+                  target="_blank"
+                  >Create Product
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table active">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID user</th>
+                        <th scope="col">Name User</th>
+                        <th scope="col">Account</th>
+                        <th scope="col">Handle</th>
+                        <th scope="col">Address</th>
+                      </tr>
+                    </thead>
+                    <tbody id="users">
+                      <!-- Render by users -->
+                    </tbody>
+                  </table>
+
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID category</th>
+                        <th scope="col">Name</th>
+                      </tr>
+                    </thead>
+                    <tbody id="category">
+                      <!-- Render by products -->
+                    </tbody>
+                  </table>
+
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID products</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Color</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Type</th>
+                      </tr>
+                    </thead>
+                    <tbody id="products">
+                      <!-- Render by products -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../assets/js/layoutAdmin/header-admin.js"></script>
+    <script src="../../assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../../assets/js/admin/users.js"></script>
+    <script src="../../assets/js/admin/products.js"></script>
+    <script src="../../assets/js/admin/category.js"></script>
+
+    <script>
+      handelRender();
+      renderCategory();
+      renderProduct();
+    </script>
+  </body>
+</html>

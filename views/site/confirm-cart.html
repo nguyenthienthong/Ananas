@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="../../assets/css/confirm-cart.css" />
+  <link rel="stylesheet" href="../../assets/css/cart.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="../../assets/css/base.css" />
+  <link rel="stylesheet" href="../../assets/css/app.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+    rel="stylesheet"
+  />
+  <!-- font chữ -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="header"></div>
+    <div class="main-cart container-fluid">
+      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 main-cart-left">
+        <form>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-1-1">
+            THÔNG TIN GIAO HÀNG
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 form-group">
+            <div class="has-feedback">
+              <input
+                type="text"
+                class="form-control name_info"
+                id="inputSuccess2"
+                placeholder="HỌ TÊN"
+                name="customerName"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 form-group">
+            <div class="has-feedback">
+              <input
+                type="text"
+                class="form-control number_info"
+                id="inputSuccess2"
+                placeholder="Số điện thoại"
+                name="customerPhone"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 form-group">
+            <div class="has-feedback">
+              <input
+                type="text"
+                class="form-control email_info"
+                id="inputSuccess2"
+                placeholder="Email"
+                name="customerEmail"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 form-group">
+            <div class="has-feedback">
+              <input
+                type="text"
+                class="form-control address_info"
+                id="inputError2"
+                placeholder="Địa chỉ"
+                name="customerAddress"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 form-group">
+            <div class="ck1">
+              <input type="checkbox" id="cb2" name="isNotification" />
+              <label for="cb2"></label>
+              Cập nhật các thông tin mới nhất về chương trình từ Ananas
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-1">
+            PHƯƠNG THỨC GIAO HÀNG
+          </div>
+
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group d-inline-flex code"
+          >
+            <div class="ck1 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <input
+                type="radio"
+                id="cb3"
+                name="shippingType"
+                value="normal"
+                checked=""
+              />
+              <label for="cb3"></label>
+              Tốc độ tiêu chuẩn (từ 2 - 5 ngày làm việc) &nbsp; &nbsp;
+              <img
+                class="tooltip_attach"
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_cham_hoi.svg"
+              />
+            </div>
+            <div
+              class="col-xs-12 col-sm-12 col-md-2 col-lg-2 form-group title-right normal-fee"
+            >
+              0 VNĐ
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-1">
+            PHƯƠNG THỨC THANH TOÁN
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+            <div class="ck1">
+              <input
+                type="radio"
+                id="cb5"
+                name="paymentType"
+                class="paymentType"
+                value="direct"
+                checked=""
+              />
+              <label for="cb5"></label>
+              Thanh toán trực tiếp khi giao hàng &nbsp; &nbsp;
+              <img
+                class="tooltip_attach"
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_cham_hoi.svg"
+              />
+              &nbsp; &nbsp;
+              <img
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_COD.svg"
+              />
+            </div>
+            <div class="tooltip-container" hidden="">
+              Là phương thức thanh toán bằng tiền mặt trực tiếp khi nhận hàng
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+            <div class="ck1">
+              <input
+                type="radio"
+                id="cb7"
+                name="paymentType"
+                class="paymentType"
+                value="onepay"
+              />
+              <label for="cb7"></label>
+              Thanh toán bằng thẻ quốc tế và nội địa (ATM) &nbsp; &nbsp;
+              <img
+                class="tooltip_attach"
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_cham_hoi.svg"
+              />
+              &nbsp; &nbsp;
+              <img
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_Cash_visa.svg"
+              />
+            </div>
+            <div class="tooltip-container" hidden="">
+              Phương thức thanh toán sử dụng các loại thẻ quốc tế như Visa,
+              Master, JCB,… hoặc các loại thẻ thanh toán nội địa (ATM). Vui lòng
+              đọc kĩ các cam kết thanh toán khi chọn phương thức này. Phí thanh
+              toán đối với phương thức này hiện là 1% trên tổng giá trị giao
+              dịch.
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+            <div class="ck1">
+              <input
+                type="radio"
+                id="cb8"
+                name="paymentType"
+                class="paymentType"
+                value="momo"
+              />
+              <label for="cb8"></label>
+              Thanh toán bằng ví MoMo &nbsp; &nbsp;
+              <img
+                class="tooltip_attach"
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_cham_hoi.svg"
+              />
+              &nbsp; &nbsp;
+              <img
+                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon momo-01.svg"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 main-cart-right">
+        <ul class="list-group">
+          <li class="list-group-item title">ĐƠN HÀNG</li>
+          <li class="list-group-item divider"></li>
+
+          <div class="render-items-cart"></div>
+          <div
+            class="listProductFromCart"
+            data-id="35679"
+            data-size="free"
+            data-quantity="1"
+          ></div>
+          <li class="list-group-item divider-1"></li>
+          <li class="list-group-item text-1">
+            <span class="title-3">Đơn hàng</span>
+            <span class="title-3-1"><span class="current-price"></span></span>
+          </li>
+          <li class="list-group-item text-2-2">
+            <span class="title-3">Giảm</span>
+            <span class="title-4-1">- <span class="discount">0</span> VND</span>
+          </li>
+          <li class="list-group-item text-2-3">
+            <span class="title-21">Phí vận chuyển</span>
+            <span class="title-22"
+              ><span class="shipping-fee">0</span> VND</span
+            >
+          </li>
+          <li class="list-group-item text-2-3">
+            <span class="title-21">Phí thanh toán</span>
+            <span class="title-22"><span class="card-fee"></span></span>
+          </li>
+
+          <li class="list-group-item divider-1"></li>
+          <li class="list-group-item">
+            <span class="title-5">TỔNG CỘNG</span>
+            <span class="title-5-2"
+              ><span class="total-price">
+                <!-- Render price cart -->
+              </span></span
+            >
+          </li>
+          <li class="list-group-item">
+            <button
+              data-href="https://ananas.vn/order-completed/"
+              class="btn btn-cart btn-complete-detail"
+              onclick="completeCart()"
+            >
+              HOÀN TẤT ĐẶT HÀNG
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="render_card">
+      <!-- Render card -->
+    </div>
+    <div class="footer"></div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../../assets/js/layout/header.js"></script>
+    <script src="../../assets/js/layout/footer.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../assets/js/components/confirm-cart.js"></script>
+    <script src="../../assets/js/components/logina.js"></script>
+
+    <script>
+      renderInfo();
+    </script>
+  </body>
+</html>

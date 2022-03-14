@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="../../assets/css/my_profile.css" />
+  <link rel="stylesheet" href="../../assets/css/cart.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="../../assets/css/base.css" />
+  <link rel="stylesheet" href="../../assets/css/app.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese"
+    rel="stylesheet"
+  />
+  <!-- font chữ -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="header"></div>
+    <div class="container buster-light">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="user-information">
+            <div class="user-img">
+              <a href="#"
+                ><img
+                  src="https://res.cloudinary.com/anummio/image/upload/v1644940414/1_k9iooe.jpg"
+                  alt="" /><br
+              /></a>
+              <a href="#" class="redbtn">Change avatar</a>
+            </div>
+            <div class="user-fav">
+              <p>Account Details</p>
+              <ul>
+                <li class="active"><a href="userprofile.html">Profile</a></li>
+                <li><a href="userfavoritelist.html">Favorite movies</a></li>
+                <li><a href="userrate.html">Rated movies</a></li>
+              </ul>
+            </div>
+            <div class="user-fav">
+              <p>Others</p>
+              <ul>
+                <li><a href="#">Change password</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 col-sm-12 col-xs-12">
+          <div class="form-style-1 user-pro" action="#">
+            <div class="user">
+              <!-- Render info -->
+            </div>
+            <div class="password">
+              <h4>02. Change password</h4>
+              <div class="row">
+                <div class="col-md-6 form-it">
+                  <label>Old Password</label>
+                  <input type="password" class="oldPass" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-it">
+                  <label>New Password</label>
+                  <input type="password" class="newPass" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-it">
+                  <label>Confirm New Password</label>
+                  <input type="password" class="confirmNewPass" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <input
+                    class="submit"
+                    type="submit"
+                    onclick="handelChangePassword()"
+                    value="change"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="render_card">
+      <!-- Render card -->
+    </div>
+    <div class="footer"></div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../../assets/js/layout/header.js"></script>
+    <script src="../../assets/js/layout/footer.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../assets/js/components/confirm-cart.js"></script>
+    <script src="../../assets/js/components/logina.js"></script>
+    <script src="../../assets/js/components/my_profile.js"></script>
+  </body>
+</html>
